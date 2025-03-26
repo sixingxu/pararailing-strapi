@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_components_intros",
+  "info": {
+    "displayName": "intro"
+  },
+  "options": {},
+  "attributes": {
+    "intro": {
+      "type": "blocks"
+    }
+  }
+}

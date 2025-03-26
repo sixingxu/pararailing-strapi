@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "link_previews",
+  "info": {
+    "singularName": "link-preview",
+    "pluralName": "link-previews",
+    "displayName": "LinkPreview"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "keyword": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "previewImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

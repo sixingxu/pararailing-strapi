@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "home page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "components.intro"
+      ]
+    },
+    "link_previews": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::link-preview.link-preview"
+    }
+  }
+}

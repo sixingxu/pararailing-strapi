@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_layout_intro_texts",
+  "info": {
+    "displayName": "intro text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "intro": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.link"
+    }
+  }
+}
